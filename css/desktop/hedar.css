@@ -1,0 +1,38 @@
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #2b2b2b;
+    z-index: 10;
+    padding-top: unset;
+    position: unset;
+    top: 0;
+    /* padding-left: 55px; */
+    left: -30%;
+  .menu{
+    nav{
+        ul{
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+            li{
+                width: fit-content;
+                &:hover{
+                    background-color: unset;
+                }
+                a{
+                    transition: 400ms;
+                    &:hover{
+                        color: gold;
+                    }
+                }
+            }
+        }
+    }
+  }
+}
+label[for="show"]{
+    display: none;
+}
+label[for="close"]{
+    display: none;
+}
